@@ -13,8 +13,8 @@ $crema:#B2CFDF;
         height: 2px;
         background: linear-gradient(to right, transparent, $crema, transparent);
         content:"";
-        margin: 0 auto; /* this centers the line to the full width specified */
-        position: absolute; /* positioning must be absolute here, and relative positioning must be applied to the parent */
+        margin: 0 auto; 
+        position: absolute; 
         top: 50%; left: 0; right: 0; bottom: 0;
         width: 95%;
         z-index: -1;
@@ -80,7 +80,7 @@ $crema:#B2CFDF;
 	height: 630px;
 	position: relative;
 	min-height: 667px;
-	@media (max-width: 1000px){
+	@media (max-width: 1250px){
 		background-position: bottom;
 	}
 	.contenido{
@@ -130,7 +130,7 @@ $crema:#B2CFDF;
 		margin:0 0 0 15%;
 		width: 300px; 
 		height: 300px; 		
-		@media (max-width: 500px){
+		@media (max-width: 1124px){
 			margin:0;
 		}
 	}
@@ -138,7 +138,7 @@ $crema:#B2CFDF;
 		padding:5% 15% 0 0;
 		font-family: "Lato";
 		font-size: 18px;
-		@media (max-width: 500px){
+		@media (max-width: 1000px){
 			padding: 20px;
 		}
 	}
@@ -183,13 +183,13 @@ $crema:#B2CFDF;
 
 #habilidades{
 	padding: 10% 0 0 0; 
-	@media (max-width: 1024px){
+	@media (max-width: 1124px){
 				padding: 10% 5% 0 0;
 			}
 	.col-md-4{
 		padding-left:30px;
 		.col-xs-2{
-			@media (max-width: 1024px){
+			@media (max-width: 1124px){
 				padding-left: 0;
 			}
 			img{
@@ -225,7 +225,7 @@ $crema:#B2CFDF;
 		padding: 0;
 		margin: 10px;
 		margin-bottom:7%;
-		@media (max-width: 1024px){
+		@media (max-width: 1124px){
 			width: 100%;
 			margin:0 0 7% 0;
 		}

@@ -10,9 +10,7 @@
     background: linear-gradient(to right, transparent, #B2CFDF, transparent);
     content: "";
     margin: 0 auto;
-    /* this centers the line to the full width specified */
     position: absolute;
-    /* positioning must be absolute here, and relative positioning must be applied to the parent */
     top: 50%;
     left: 0;
     right: 0;
@@ -63,7 +61,7 @@
   height: 630px;
   position: relative;
   min-height: 667px; }
-  @media (max-width: 1000px) {
+  @media (max-width: 1250px) {
     #header {
       background-position: bottom; } }
   #header .contenido {
@@ -106,14 +104,14 @@
     margin: 0 0 0 15%;
     width: 300px;
     height: 300px; }
-    @media (max-width: 500px) {
+    @media (max-width: 1124px) {
       #sobremi img {
         margin: 0; } }
   #sobremi .yo {
     padding: 5% 15% 0 0;
     font-family: "Lato";
     font-size: 18px; }
-    @media (max-width: 500px) {
+    @media (max-width: 1000px) {
       #sobremi .yo {
         padding: 20px; } }
   #sobremi .skin {
@@ -149,12 +147,12 @@
 
 #habilidades {
   padding: 10% 0 0 0; }
-  @media (max-width: 1024px) {
+  @media (max-width: 1124px) {
     #habilidades {
       padding: 10% 5% 0 0; } }
   #habilidades .col-md-4 {
     padding-left: 30px; }
-    @media (max-width: 1024px) {
+    @media (max-width: 1124px) {
       #habilidades .col-md-4 .col-xs-2 {
         padding-left: 0; } }
     #habilidades .col-md-4 .col-xs-2 img {
@@ -182,7 +180,7 @@
     padding: 0;
     margin: 10px;
     margin-bottom: 7%; }
-    @media (max-width: 1024px) {
+    @media (max-width: 1124px) {
       #portafolio .col-md-4 {
         width: 100%;
         margin: 0 0 7% 0; } }
