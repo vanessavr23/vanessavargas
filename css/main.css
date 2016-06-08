@@ -1,0 +1,283 @@
+.background {
+  margin-bottom: 8%;
+  position: relative;
+  z-index: 1;
+  font-family: "Lustria";
+  color: #363636; }
+  .background:before {
+    border: 0;
+    height: 2px;
+    background: linear-gradient(to right, transparent, #B2CFDF, transparent);
+    content: "";
+    margin: 0 auto;
+    /* this centers the line to the full width specified */
+    position: absolute;
+    /* positioning must be absolute here, and relative positioning must be applied to the parent */
+    top: 50%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 95%;
+    z-index: -1; }
+  .background span {
+    background: #fff;
+    padding: 0 15px; }
+
+.navbar {
+  position: fixed;
+  z-index: 3;
+  background: transparent;
+  border: none;
+  font-family: "Lato"; }
+  .navbar .navbar-toggle {
+    margin-top: 15px;
+    background: #363636;
+    border-color: #B2CFDF; }
+  .navbar .in {
+    border: none; }
+  .navbar .navbar-collapse {
+    border-color: none; }
+  .navbar .container img {
+    width: 40px;
+    margin-left: 30px;
+    padding-top: 15px; }
+  .navbar .container .collapse ul li a {
+    color: #fff;
+    padding-top: 25px; }
+  .navbar .container .collapse ul li a:hover {
+    color: #B2CFDF; }
+
+.navbar-shrink {
+  background-color: #363636;
+  padding: 0 0 10px 0; }
+
+#header {
+  background-image: url(../images/01v.jpg);
+  background-repeat: none;
+  background-size: cover;
+  background-attachment: scroll;
+  background-position: center;
+  background-position: 0 -80px;
+  background-attachment: fixed;
+  width: 100%;
+  height: 630px;
+  position: relative;
+  min-height: 667px; }
+  @media (max-width: 1000px) {
+    #header {
+      background-position: bottom; } }
+  #header .contenido {
+    background-color: rgba(0, 0, 0, 0.1);
+    background-image: -moz-linear-gradient(top, #000, transparent);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#000), to(transparent));
+    background-image: linear-gradient(top, #000, transparent);
+    width: 100%;
+    height: 630px;
+    position: relative;
+    min-height: 667px; }
+    #header .contenido .caja {
+      width: 100%;
+      padding: 28% 0 0 6%;
+      color: #fff; }
+      @media (max-width: 500px) {
+        #header .contenido .caja {
+          padding: 65% 0 0 6%; } }
+      #header .contenido .caja .hola {
+        font-size: 1.5em;
+        font-style: italic;
+        font-family: "Lato";
+        font-weight: 400; }
+        #header .contenido .caja .hola span {
+          font-size: 1.55em; }
+      #header .contenido .caja #maquinas {
+        font-size: 290%;
+        font-weight: 700;
+        font-family: "Lustria"; }
+      #header .contenido .caja p {
+        font-size: 16px;
+        padding-top: 10px;
+        font-family: "Lato";
+        font-weight: 400;
+        text-shadow: 2px 2px 5px #000; }
+
+#sobremi {
+  padding: 10% 0 0 0; }
+  #sobremi img {
+    margin: 0 0 0 15%;
+    width: 300px;
+    height: 300px; }
+    @media (max-width: 500px) {
+      #sobremi img {
+        margin: 0; } }
+  #sobremi .yo {
+    padding: 5% 15% 0 0;
+    font-family: "Lato";
+    font-size: 18px; }
+    @media (max-width: 500px) {
+      #sobremi .yo {
+        padding: 20px; } }
+  #sobremi .skin {
+    padding: 10% 5% 0 5%; }
+    #sobremi .skin .fa {
+      font-size: 30px;
+      color: #363636;
+      padding: 30px;
+      border: 2px solid #B2CFDF;
+      border-radius: 15%; }
+    #sobremi .skin .fa:hover {
+      background-color: #B2CFDF; }
+    #sobremi .skin p {
+      margin-top: 40px;
+      font-family: "Lato";
+      color: #363636;
+      font-size: 18px; }
+  #sobremi .magic {
+    visibility: visible;
+    webkit-animation-delay: 0s;
+    moz-animation-delay: 0s;
+    animation-delay: 0s; }
+  #sobremi .user {
+    visibility: visible;
+    webkit-animation-delay: .2s;
+    moz-animation-delay: .2s;
+    animation-delay: .2s; }
+  #sobremi .code {
+    visibility: visible;
+    webkit-animation-delay: .4s;
+    moz-animation-delay: .4s;
+    animation-delay: .4s; }
+
+#habilidades {
+  padding: 10% 0 0 0; }
+  @media (max-width: 1024px) {
+    #habilidades {
+      padding: 10% 5% 0 0; } }
+  #habilidades .col-md-4 {
+    padding-left: 30px; }
+    @media (max-width: 1024px) {
+      #habilidades .col-md-4 .col-xs-2 {
+        padding-left: 0; } }
+    #habilidades .col-md-4 .col-xs-2 img {
+      width: 45px;
+      padding-top: 21px; }
+    #habilidades .col-md-4 .col-xs-10 {
+      margin-bottom: 20%;
+      padding: 12px;
+      background: #B2CFDF;
+      font-family: "Lato";
+      border-radius: 10px; }
+      #habilidades .col-md-4 .col-xs-10 h4 {
+        padding-bottom: 10px;
+        font-weight: 700; }
+      #habilidades .col-md-4 .col-xs-10 .progress {
+        height: 10px; }
+        #habilidades .col-md-4 .col-xs-10 .progress .progress-bar {
+          background-color: #363636; }
+
+#portafolio {
+  padding: 5% 0 0 0; }
+  #portafolio .col-md-4 {
+    width: 370px;
+    overflow: hidden;
+    padding: 0;
+    margin: 10px;
+    margin-bottom: 7%; }
+    @media (max-width: 1024px) {
+      #portafolio .col-md-4 {
+        width: 100%;
+        margin: 0 0 7% 0; } }
+    #portafolio .col-md-4 img {
+      width: 100%;
+      -webkit-transition: all .9s ease; }
+    #portafolio .col-md-4 img:hover {
+      -webkit-transform: scale(1.25);
+      -moz-transform: scale(1.25);
+      -ms-transform: scale(1.25);
+      -o-transform: scale(1.25);
+      transform: scale(1.25);
+      filter: url("#grayscale");
+      -webkit-filter: grayscale(100%);
+      -moz-filter: grayscale(100%);
+      -ms-filter: grayscale(100%);
+      -o-filter: grayscale(100%);
+      filter: grayscale(100%);
+      filter: Gray(); }
+
+#intereses {
+  background: black;
+  width: 100%;
+  height: 200px;
+  margin: 100px 0 100px 0; }
+  #intereses .carousel .carousel-inner .item {
+    background-color: #363636;
+    width: 100%;
+    height: 300px; }
+    #intereses .carousel .carousel-inner .item .carousel-caption {
+      width: 100%;
+      height: 300px;
+      font-size: 26px;
+      font-family: "Lustria"; }
+      @media (max-width: 500px) {
+        #intereses .carousel .carousel-inner .item .carousel-caption {
+          font-size: 18px; } }
+      #intereses .carousel .carousel-inner .item .carousel-caption .avion {
+        background-image: url(../images/textura/avion1.png);
+        background-size: 70px;
+        width: 100%;
+        height: 300px; }
+        #intereses .carousel .carousel-inner .item .carousel-caption .avion p {
+          padding: 8% 20% 0 20%; }
+      #intereses .carousel .carousel-inner .item .carousel-caption .pelota {
+        background-image: url(../images/textura/pelota1.png);
+        background-size: 70px;
+        width: 100%;
+        height: 300px; }
+        #intereses .carousel .carousel-inner .item .carousel-caption .pelota p {
+          padding-top: 9%; }
+      #intereses .carousel .carousel-inner .item .carousel-caption .huella {
+        background-image: url(../images/textura/huella1.png);
+        background-size: 70px;
+        width: 100%;
+        height: 300px; }
+        #intereses .carousel .carousel-inner .item .carousel-caption .huella p {
+          padding: 8% 20% 0 20%; }
+      #intereses .carousel .carousel-inner .item .carousel-caption .musica {
+        background-image: url(../images/textura/musica1.png);
+        background-size: 70px;
+        width: 100%;
+        height: 300px; }
+        #intereses .carousel .carousel-inner .item .carousel-caption .musica p {
+          padding: 8% 20% 0 20%; }
+      #intereses .carousel .carousel-inner .item .carousel-caption .planta {
+        background-image: url(../images/textura/planta1.png);
+        background-size: 70px;
+        width: 100%;
+        height: 300px; }
+        #intereses .carousel .carousel-inner .item .carousel-caption .planta p {
+          padding-top: 9%; }
+
+#contactame {
+  padding: 10% 0 5% 0; }
+  #contactame .redes {
+    padding-bottom: 4%; }
+    #contactame .redes .fa {
+      font-size: 80px;
+      margin: 0 20px;
+      color: #B2CFDF; }
+  #contactame .text-center a {
+    color: #363636;
+    text-decoration: none;
+    font-size: 18px; }
+    #contactame .text-center a .fa-envelope {
+      color: #B2CFDF;
+      font-size: 70px;
+      padding-bottom: 10px; }
+    #contactame .text-center a .fa:hover {
+      color: #363636; }
+
+footer {
+  padding: 3% 0;
+  background: #363636;
+  color: #fff; }
+
+/*# sourceMappingURL=main.css.map */
